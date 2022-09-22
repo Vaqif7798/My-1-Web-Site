@@ -1,0 +1,929 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+@import url(bootstrap/bootstrap.min.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: none;
+    
+
+}
+
+/* 1-ci header*/
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #00738e;
+    position: absolute;
+}
+
+.logo li {
+    display: inline;
+
+    position: absolute;
+}
+
+.logo li:nth-child(1) {
+    margin-left: 1100px;
+}
+
+.logo li:nth-child(2) {
+    margin-left: 1070px;
+}
+
+.logo li:nth-child(3) {
+    margin-left: 1040px;
+}
+
+.logo li:nth-child(4) {
+    margin-left: 1010px;
+}
+
+
+.acilanmenu {
+    width: 100%;
+    height: 350px;
+    background-color: #025a6e;
+    top: 20px;
+    z-index: 1;
+}
+
+.acilanmenu {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+
+
+}
+
+.header>ul>li:hover .acilanmenu {
+    visibility: visible;
+    position: relative;
+    opacity: 1;
+    top: 47px;
+    transition: 500ms;
+}
+
+.header>ul>li {
+    display: inline;
+}
+
+.header ul li a {
+    margin-left: 100px;
+    position: absolute;
+    top: 14px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header>ul>li>a:hover {
+    cursor: pointer;
+    color: #5bbacf;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.acilanmenu li:nth-child(1) a {
+    display: inline;
+    width: 150px;
+    height: 70px;
+    border: 1px solid #00738e;
+
+}
+
+.acilanmenu li:nth-child(1) {
+    top: 20px;
+    position: relative;
+}
+
+.acilanmenu li:nth-child(2) {
+    top: 20px;
+    position: relative;
+}
+
+.acilanmenu li:nth-child(3) {
+    top: 20px;
+    position: relative;
+}
+
+.acilanmenu li:nth-child(1) a:hover {
+    border: 1px solid #5aabbd;
+    text-decoration: none;
+
+}
+
+.acilanmenu li:nth-child(2) a {
+    margin-left: 280px;
+    width: 230px;
+    height: 70px;
+    border: 1px solid #00738e;
+}
+
+.acilanmenu li:nth-child(2) a:hover {
+    border: 1px solid #5aabbd;
+    text-decoration: none;
+}
+
+.acilanmenu li:nth-child(3) a {
+    margin-left: 540px;
+    width: 230px;
+    height: 70px;
+    border: 1px solid #00738e;
+}
+
+.acilanmenu li:nth-child(3) a:hover {
+    border: 1px solid #5aabbd;
+    text-decoration: none;
+}
+
+.acilanmenu li a i {
+    visibility: hidden;
+    position: absolute;
+    color: #5aabbd;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.acilanmenu li a:hover i {
+    visibility: visible;
+    position: relative;
+    color: #5aabbd;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.header ul:nth-child(2) li:nth-child(1) a i {
+    margin-left: 10px;
+    top: 2px;
+    position: relative;
+}
+
+/* 1-ci headerin sonu*/
+
+
+
+/* MENU evveli*/
+
+.menu {
+    width: 100%;
+    height: 300px;
+    background-color: #025a6e;
+    position: absolute;
+    top: 59px;
+}
+
+.menu a:nth-child(1) img {
+    width: 100px;
+    top: 50px;
+    z-index: -1;
+    margin-left: 100px;
+    padding-top: 40px;
+}
+
+.menu a:nth-child(2) h4,
+h5 {
+    margin-left: 10px;
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: none;
+}
+
+.menu a:nth-child(2) h4 {
+    margin-left: 220px;
+    top: -70px;
+    position: relative;
+}
+
+.menu .onlayn {
+    padding-bottom: 30px;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    background-color: #1fbfe3;
+    position: relative;
+    padding: 20px;
+    margin-left: 650px;
+    top: -90px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 500ms;
+}
+
+.menu .onlayn:hover {
+    background-color: white;
+    color: #1fbfe3;
+}
+
+.menu .zeng {
+    position: relative;
+    margin-left: -530px;
+    font-size: 30px;
+    color: white;
+    top: -85px;
+}
+
+.menu .zeng a {
+    color: white;
+    font-size: 35px;
+}
+
+.menubar li {
+    float: left;
+    margin-left: 50px;
+    margin: 10px;
+    position: relative;
+}
+
+.menubar {
+    margin-left: 80px;
+}
+
+.menubar li a {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menubar li:nth-child(-n+8) a:hover {
+    border-bottom: 10px solid #1fbfe3;
+    padding-bottom: 25px;
+}
+
+.menubar li:nth-child(9) {
+    margin-left: 180px;
+}
+
+.menubar li:nth-child(1) a {
+    border-bottom: 10px solid #1fbfe3;
+    padding-bottom: 25px;
+
+}
+
+/* MENU SONU*/
+
+
+/*Heyder Eliyev sitat baslangic*/
+.heyder {
+    width: 100%;
+    height: 103px;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 358px;
+
+}
+
+.heyder h5 {
+    top: 30px;
+    position: absolute;
+    color: black;
+    text-shadow: 1px 1px 1px gold;
+    font-weight: medium;
+    margin-left: 170px;
+}
+
+.heyder h6 {
+    top: -30px;
+    position: relative;
+    color: black;
+    text-shadow: 1px 1px 1px gold;
+    font-weight: medium;
+    margin-left: 1000px;
+}
+
+.heyder img {
+    margin-left: 170px;
+}
+
+
+/*Heyder Eliyev sitat SON*/
+
+
+
+/*Main baslangic*/
+
+.sekil {
+    width: 600px;
+    display: inline;
+    top: 500px;
+    position: relative;
+    margin-left: 100px;
+}
+
+.meqale {
+    display: block;
+    position: relative;
+    top: 200px;
+    margin-left: 710px;
+    line-height: 16px;
+    font-weight: bold;
+    width: 550px;
+}
+
+.meqale p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.meqale {
+    background-color: #f2f2f2;
+}
+
+.kart {
+    width: 310px;
+    height: 250px;
+    position: relative;
+    top: 220px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.kart img {
+    width: 300px;
+    position: absolute;
+
+
+}
+
+.kart a {
+    position: relative;
+    color: black;
+    font-weight: bold;
+    width: 300px;
+    padding-bottom: 10px;
+    top: 150px;
+}
+
+.kart a:hover {
+    text-decoration: none;
+    color: #025a6e;
+    transition: 500ms;
+}
+
+.kart2 {
+    position: relative;
+    top: 195px;
+}
+
+.buton {
+    top: 200px;
+    position: relative;
+    margin-left: 600px;
+    padding: 10px;
+}
+
+.buton a {
+    padding-bottom: 35px;
+    position: relative;
+    padding: 10px;
+    background-color: #025a6e;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.buton a:hover {
+    background-color: #1fbfe3;
+    transition: 400ms;
+    text-decoration: none;
+}
+
+.icerik .elektron {
+    position: relative;
+    top: 250px;
+    margin-left: 90px;
+}
+
+.icerik .xidmet {
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgb(163, 163, 163);
+    position: relative;
+    top: 280px;
+    margin-left: 90px;
+    display: inline-block;
+}
+
+.bu {
+    margin-left: 35px;
+}
+
+.xidmet img {
+    position: absolute;
+    top: 70px;
+    margin-left: 10px;
+}
+
+.xidmet a {
+    position: absolute;
+    top: 150px;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.xidmet i {
+    position: absolute;
+    margin-left: 250px;
+    font-weight: bold;
+}
+
+.xidmet a:hover {
+    text-decoration: none;
+}
+
+.icerik .xidmet:hover {
+    background-color: #a8e3f0;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.icerik .xidmet:hover i {
+    color: #1fbfe3;
+    transition: 500ms;
+    margin-left: 255px;
+}
+
+.icerik .xidmet:hover i {
+    font-weight: bold;
+    color: #025a6e;
+    transition: 500ms;
+}
+
+.xidmet2 {
+    width: 350px;
+    height: 350px;
+    background-color: #025a6e;
+    top: 330px;
+    position: relative;
+    margin-left: 110px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.xidmet2 img {
+    width: 50px;
+    position: absolute;
+    margin-left: 20px;
+    top: 15px;
+
+}
+
+.xidmet2 h2 {
+    position: absolute;
+    margin-left: 55px;
+    padding: 20px;
+    color: white;
+}
+
+.xidmet2 p {
+    position: absolute;
+    top: 80px;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    line-height: 19px;
+}
+
+.xidmet2 a:nth-of-type(1) {
+    position: absolute;
+    top: 200px;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 100px;
+    border-bottom: 40px;
+    border-top: 5px;
+    border-left: 15px;
+    border-right: 15px;
+    border: 1px solid rgb(148, 144, 144);
+    color: white;
+    border-radius: 5px;
+}
+
+.xidmet2 a:nth-of-type(2) {
+    position: absolute;
+    top: 270px;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 80px;
+    border-bottom: 40px;
+    border-top: 5px;
+    border-left: 15px;
+    border-right: 15px;
+    border: 1px solid rgb(148, 144, 144);
+    color: white;
+    border-radius: 5px;
+}
+
+.xidmet2 a:hover {
+    background-color: #1fbfe3;
+    transition: 500ms;
+    text-decoration: none;
+}
+
+.xidmet3 {
+    width: 350px;
+    height: 350px;
+    background-color: #025a6e;
+    top: 330px;
+    position: relative;
+    margin-left: 60px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.xidmet3 img {
+    width: 50px;
+    position: absolute;
+    margin-left: 20px;
+    top: 15px;
+
+}
+
+.xidmet3 h2 {
+    position: absolute;
+    margin-left: 60px;
+    padding: 20px;
+    color: white;
+}
+
+.xidmet3 p {
+    position: absolute;
+    top: 80px;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    line-height: 19px;
+}
+
+.xidmet3 a:nth-of-type(1) {
+    position: absolute;
+    top: 210px;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 100px;
+    border-bottom: 40px;
+    border-top: 5px;
+    border-left: 15px;
+    border-right: 15px;
+    border: 1px solid rgb(148, 144, 144);
+    color: white;
+    border-radius: 5px;
+}
+
+.xidmet3 a:nth-of-type(2) {
+    position: absolute;
+    top: 280px;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 80px;
+    border-bottom: 40px;
+    border-top: 5px;
+    border-left: 15px;
+    border-right: 15px;
+    border: 1px solid rgb(148, 144, 144);
+    color: white;
+    border-radius: 5px;
+}
+
+.xidmet3 a:hover {
+    background-color: #1fbfe3;
+    transition: 500ms;
+    text-decoration: none;
+}
+
+.xidmet4 {
+    width: 350px;
+    height: 350px;
+    background-color: #025a6e;
+    top: 330px;
+    position: relative;
+    margin-left: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.xidmet4 img {
+    width: 50px;
+    position: absolute;
+    margin-left: 20px;
+    top: 15px;
+
+}
+
+.xidmet4 h2 {
+    position: absolute;
+    margin-left: 60px;
+    padding: 20px;
+    color: white;
+}
+
+.xidmet4 p {
+    position: absolute;
+    top: 80px;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    line-height: 19px;
+}
+
+.xidmet4 a:nth-of-type(1) {
+    position: absolute;
+    top: 210px;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 100px;
+    border-bottom: 40px;
+    border-top: 5px;
+    border-left: 15px;
+    border-right: 15px;
+    border: 1px solid rgb(148, 144, 144);
+    color: white;
+    border-radius: 5px;
+}
+
+.xidmet4 a:nth-of-type(2) {
+    position: absolute;
+    top: 280px;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 80px;
+    border-bottom: 40px;
+    border-top: 5px;
+    border-left: 15px;
+    border-right: 15px;
+    border: 1px solid rgb(148, 144, 144);
+    color: white;
+    border-radius: 5px;
+}
+
+.xidmet4 a:hover {
+    background-color: #1fbfe3;
+    transition: 500ms;
+    text-decoration: none;
+}
+
+.faydali {
+    display: inline-block;
+}
+
+.faydali h5 {
+    top: 380px;
+    color: black;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 105px;
+    border-bottom: 4px solid #1fbfe3;
+}
+
+.faydali a {
+    position: relative;
+    top: 450px;
+    margin-left: -180px;
+    padding-bottom: 5px;
+    border: 1px solid #5aabbd;
+    padding: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.faydali a i {
+    margin-left: 20px;
+    position: relative;
+}
+
+.faydali:hover a {
+    text-decoration: none;
+    background-color: #d9f0f5;
+    transition: 500ms;
+}
+
+.faydali2 {
+    margin-left: 185px;
+    position: absolute;
+}
+
+.faydali3 {
+    margin-left: 465px;
+    position: absolute;
+}
+
+.faydali4 {
+    margin-left: 720px;
+    position: absolute;
+
+}
+
+.altbaner {
+    width: 100%;
+    height: 250px;
+    background-color: #f2f2f2;
+    position: relative;
+    top: 550px;
+    opacity: 1;
+}
+
+.altbaner a img {
+    position: relative;
+    margin-left: 65px;
+    top: 80px;
+}
+
+.altbaner a:nth-child(1) {
+    margin-left: 25px;
+}
+
+.altbaner a:nth-child(2) {
+    position: relative;
+    margin-left: -30px;
+}
+
+.altbaner a:nth-child(3) {
+    margin-left: -35px;
+}
+
+/*Main SON*/
+
+
+/*FOOTER1 baslangic*/
+
+.umumi {
+    margin-left: 40px;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #00738e;
+    position: relative;
+    top: 550px;
+}
+
+.footer .zenf1 {
+    display: inline;
+    
+  
+}
+
+.footer .zeng1 a {
+    display: inline;
+    position: absolute;
+    font-weight: bold;
+    top: 100px;
+    color: white;
+
+    font-size: 35px;
+}
+
+.footer .zeng1 h6 {
+    margin-left: 180px;
+    position: absolute;
+    top: -5px;
+    top: 90px;
+    font-size: 1.2rem;
+    margin-left: 80px;
+    color: white;
+}
+
+
+.footer .zenf1 a {
+    position: relative;
+    font-size: 200px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+
+
+.footer .zeng1 i {
+    font-size: 50px;
+    position: relative;
+    margin-left: 50px;
+    top: 80px;
+    color: #1fbfe3;
+}
+
+.zeng2 {
+    position: relative;
+    margin-left: 450px;
+    top: -70px;
+
+}
+
+.zeng1 a:hover {
+    text-decoration: none;
+}
+
+.footer .umumi .buton2 {
+    margin-left: -50px;
+}
+
+.footer .buton2 a:nth-child(1) {
+    padding-bottom: 40px;
+    padding: 15px;
+    background-color: #1fbfe3;
+    color: white;
+    padding-top: 10px;
+    margin-left: 1000px;
+    position: absolute;
+    top: -5px;
+    top: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.footer .buton2 a:nth-child(2) {
+    padding-bottom: 40px;
+    padding: 15px;
+    background-color: #1fbfe3;
+    color: white;
+    padding-top: 10px;
+    margin-left: 1130px;
+    position: absolute;
+    top: -5px;
+    top: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.footer .buton2 a:nth-child(1):hover {
+    background-color: white;
+    color: #1fbfe3;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.footer .buton2 a:nth-child(2):hover {
+    background-color: white;
+    color: #1fbfe3;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+/*FOOTER1 SON*/
+
+
+/*FOOTER2 baslangic*/
+
+.footer2 {
+    width: 100%;
+    height: 400px;
+    background-color: #025a6e;
+    position: relative;
+    top: 550px;
+}
+
+.footer2 h5 {
+    position: absolute;
+    margin-left: 150px;
+    top: 70px;
+}
+
+.footer2 ul {
+    margin-left: 150px;
+    top: 110px;
+    position: absolute;
+}
+
+.footer2 ul li a {
+    color: white;
+    opacity: 0.7;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.footer2 ul li a:hover {
+    opacity: 1;
+    transition: 500ms;
+}
+
+.footer2 .sag {
+    margin-left: 400px;
+}
+
+.footer2 .sag2 {
+    margin-left: 600px;
+}
+
+/*Footer2 SON*/
